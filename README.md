@@ -1,1 +1,5 @@
-# KMeansClustering
+This is a program that classifies feature vectors using K-Means clustering. A dataset containing information regarding different NBA players and their game stats will be used. The statistics we want are “PTS”, “AST” and “REB” which are shorts for points per game (PPG), assists per game (APG), and rebounds per game (RPG), the three most common statistics of a basketball player. The task is to classify the points in players_stat.csv and group them according to positions in a basketball game . The number of clusters, k, must be asked from the user.
+
+The output of the program is a file named output.txt and a 3D scatterplot graph (bonus). The output file contains the initial centroids, final centroids before the program terminated, number of iterations, and the labeled dataset. For each labeled dataset, it includes the (1) label/cluster, (2) player id, (3) name of the player, and (4) data points associated with the player id. Player names can be extracted from players_id.csv.
+
+For the scatterplot, each color signifies a cluster and maximum of 10 clusters. The data you need can be found on this  link. To check your output, you may look at this debug folder given this  link. Use random.seed(170) for the initial centroids to match the expected output.
